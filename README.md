@@ -1,5 +1,5 @@
 # freudMIND
-Also published on ollama community here: https://openwebui.com/f/junky228/freudmind
+Also published on open-webui community here: https://openwebui.com/f/junky228/freudmind
 Filter for use in open-WebUI to work with Ollama LLM models. Implements a simple architecture of the mind as described by Sigmund Freud. 
 
 Interestingly seems to improve reasoning and information provided in responses. 
