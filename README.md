@@ -17,4 +17,4 @@ Right now the models are id, ego, and superego, and themind. With themind being 
 
 Theoretically this can be used as a base and expanded to keep feeding prompts to various other models in order to best inform the final model before it responds to the user.
 
-I started with a page of written ideas and initially referenced the reread_filter 0.1.0 by https://openwebui.com/u/iamg30/  because I was struggling with understanding how to make a functional filter, even a basic one.
+I started with a page of written ideas and initially referenced the reread_filter 0.1.0 by https://openwebui.com/u/iamg30/  because I was struggling with understanding how to make a functional filter when using the docs as reference, even a basic one.
