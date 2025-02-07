@@ -1,11 +1,15 @@
 """
 title: freudMIND
-description: Implements architecture of the mind as described by Sigmund Freud. Doubles as an ad-hoc implementation of a mixtrure of experts approach which allows the user to choose whichever experts they want and customize how they respond and are selected.
+description: Implements architecture of the mind as described by Sigmund Freud. Doubles as an ad-hoc implementation of a mixture of experts approach which allows the user to choose whichever experts they want and customize how they respond and are selected. Just tweak the code.
 author: Junky228
-author_url: https://openwebui.com/u/junky228/
+author_url: https://openwebui.com/u/junky228
 version: 0.1.7.5
 license: MIT
 """
+#find the readme on my github: https://github.com/Junky228/freudMIND/tree/main?tab=readme-ov-file
+#last update 7 Feb, 2025 on current ollama and open-webui versions
+#Please note that this makes responses take roughly 4 times longer than if filter were disabled, if id, ego, superego, and themind named models are the same llm.
+#ONLY ENABLE FILTER FOR themind MODEL!!! OTHERWISE IT WILL RECURSIVELY CALL UP MODELS FOREVER
 
 from typing import Any, Optional
 import logging
