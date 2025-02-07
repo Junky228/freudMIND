@@ -2,7 +2,9 @@
 title: freudMIND
 description: Implements architecture of the mind as described by Sigmund Freud. Doubles as an ad-hoc implementation of a mixtrure of experts approach which allows the user to choose whichever experts they want and customize how they respond and are selected.
 author: Junky228
+author_url: https://openwebui.com/u/junky228/
 version: 0.1.7.5
+license: MIT
 """
 
 from typing import Any, Optional
